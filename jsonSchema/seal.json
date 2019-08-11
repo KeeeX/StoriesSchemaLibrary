@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/plumb",
+  "type": "object",
+  "title": "The plumb file",
+  "required": [
+    "interchange",
+    "plumb"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "plumb": {
+      "$ref": "//items/plumb"
+    }
+  }
+}

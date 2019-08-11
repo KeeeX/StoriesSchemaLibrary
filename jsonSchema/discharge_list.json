@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/discharge_list",
+  "type": "object",
+  "title": "The discharge list file",
+  "required": [
+    "interchange",
+    "dischargeList"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "dischargeList": {
+      "$ref": "//items/discharge_list"
+    }
+  }
+}

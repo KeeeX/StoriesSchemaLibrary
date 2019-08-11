@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/trader",
+  "type": "object",
+  "title": "The trader item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "folderReference": {
+      "$id": "#/properties/folderReference",
+      "type": "string",
+      "title": "The folder reference"
+    },
+    "trader": {
+      "$id": "#/properties/trader",
+      "type": "string",
+      "title": "The trader name"
+    },
+    "traderCode": {
+      "$id": "#/properties/traderCode",
+      "type": "string",
+      "title": "The trader code"
+    },
+    "traderId": {
+      "$id": "#/properties/traderId",
+      "type": "string",
+      "title": "The trader id"
+    },
+    "traderLabel": {
+      "$id": "#/properties/traderLabel",
+      "type": "string",
+      "title": "The trader label"
+    },
+    "traderReference": {
+      "$id": "#/properties/traderReference",
+      "type": "string",
+      "title": "The trader reference"
+    },
+    "traderType": {
+      "$id": "#/properties/traderType",
+      "type": "string",
+      "title": "The trader type"
+    }
+  }
+}

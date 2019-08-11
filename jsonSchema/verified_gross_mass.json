@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/vgm",
+  "type": "object",
+  "title": "The vgm file",
+  "required": [
+    "interchange",
+    "vgm"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "vgm": {
+      "$ref": "//items/vgm"
+    }
+  }
+}

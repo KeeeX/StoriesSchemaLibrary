@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/shipping_order",
+  "type": "object",
+  "title": "The shipping order file",
+  "required": [
+    "interchange",
+    "shippingOrder"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "shippingOrder": {
+      "$ref": "//items/shipping_order"
+    }
+  }
+}

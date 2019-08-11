@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/interchange",
+  "type": "object",
+  "title": "The interchange item",
+  "required": [
+    "applicationSender",
+    "date"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "applicationSender": {
+      "$id": "#/properties/applicationSender",
+      "type": "string",
+      "title": "The application sender"
+    },
+    "date": {
+      "$id": "#/properties/date",
+      "type": "string",
+      "title": "Date"
+    },
+    "action": {
+      "$id": "#/properties/action",
+      "type": "string",
+      "title": "The action"
+    },
+    "applicationReceiver": {
+      "$id": "#/properties/applicationReceiver",
+      "type": "string",
+      "title": "The application receiver"
+    },
+    "community": {
+      "$id": "#/properties/community",
+      "type": "string",
+      "title": "The community"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The id"
+    },
+    "message": {
+      "$id": "#/properties/message",
+      "type": "string",
+      "title": "The message"
+    },
+    "messageCode": {
+      "$id": "#/properties/messageCode",
+      "type": "string",
+      "title": "The message code"
+    },
+    "messageId": {
+      "$id": "#/properties/messageId",
+      "type": "string",
+      "title": "The message id"
+    },
+    "organization": {
+      "$id": "#/properties/organization",
+      "type": "string",
+      "title": "The organization"
+    },
+    "organizationId": {
+      "$id": "#/properties/organizationId",
+      "type": "string",
+      "title": "The organization id"
+    },
+    "profile": {
+      "$id": "#/properties/profile",
+      "type": "string",
+      "title": "The profile"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "string",
+      "title": "The version"
+    }
+  }
+}

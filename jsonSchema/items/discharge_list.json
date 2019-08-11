@@ -1,0 +1,79 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/discharge_list",
+  "type": "object",
+  "title": "The discharge list item",
+  "required": [
+    "cargos"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "cargos": {
+      "$id": "#/properties/cargos",
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "allOf": [
+          {
+            "$ref": "//items/cargo"
+          },
+          {
+            "required": [
+              "reference"
+            ]
+          }
+        ]
+      }
+    },
+    "carriageIdentification": {
+      "$id": "#/properties/carriageIdentification",
+      "type": "string",
+      "title": "The carriage identification"
+    },
+    "carriageReference": {
+      "$id": "#/properties/carriageReference",
+      "type": "string",
+      "title": "The carriage reference"
+    },
+    "eta": {
+      "$id": "#/properties/eta",
+      "type": "string",
+      "title": "The estimated time of arrival"
+    },
+    "etd": {
+      "$id": "#/properties/etd",
+      "type": "string",
+      "title": "The estimated time of delivery"
+    },
+    "inlandTransportStatus": {
+      "$id": "#/properties/inlandTransportStatus",
+      "type": "string",
+      "title": "The inland transport status"
+    },
+    "inlandCarrierTraderCode": {
+      "$id": "#/properties/inlandCarrierTraderCode",
+      "type": "string",
+      "title": "The inland carrier trader code"
+    },
+    "portOfDischargeCode": {
+      "$id": "#/properties/portOfDischargeCode",
+      "type": "string",
+      "title": "The port of discharge code"
+    },
+    "portOfLoadingCode": {
+      "$id": "#/properties/portOfLoadingCode",
+      "type": "string",
+      "title": "The port of loading code"
+    },
+    "terminalCode": {
+      "$id": "#/properties/terminalCode",
+      "type": "string",
+      "title": "The terminal code"
+    },
+    "transportMode": {
+      "$id": "#/properties/transportMode",
+      "type": "string",
+      "title": "The transport mode"
+    }
+  }
+}

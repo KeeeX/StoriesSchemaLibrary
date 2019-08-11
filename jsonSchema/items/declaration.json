@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/declaration",
+  "type": "object",
+  "title": "The declaration item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "customsAgentTraderCode": {
+      "$id": "#/properties/customsAgentTraderCode",
+      "type": "string"
+    },
+    "customsAgentTraderLabel": {
+      "$id": "#/properties/customsAgentTraderLabel",
+      "type": "string"
+    },
+    "customsAgentReference": {
+      "$id": "#/properties/customsAgentReference",
+      "type": "string"
+    },
+    "customsOfficeCode": {
+      "$id": "#/properties/customsOfficeCode",
+      "type": "string"
+    },
+    "customsOfficeLabel": {
+      "$id": "#/properties/customsOfficeLabel",
+      "type": "string"
+    },
+    "declarationId": {
+      "$id": "#/properties/declarationId",
+      "type": "string"
+    },
+    "declarationType": {
+      "$id": "#/properties/declarationType",
+      "type": "string"
+    },
+    "packageNumber": {
+      "$id": "#/properties/packageNumber",
+      "type": "integer"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string"
+    },
+    "weight": {
+      "$id": "#/properties/weight",
+      "type": "integer"
+    }
+  }
+}

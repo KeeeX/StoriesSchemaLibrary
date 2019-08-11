@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/good",
+  "type": "object",
+  "title": "The good item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "blId": {
+      "$id": "#/properties/blId",
+      "type": "integer",
+      "title": "The bill of loading id"
+    },
+    "description": {
+      "$id": "#/properties/description",
+      "type": "string",
+      "title": "The description"
+    },
+    "grossWeight": {
+      "$id": "#/properties/grossWeight",
+      "type": "integer",
+      "title": "The gross weight"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The good id"
+    },
+    "packageTypeCode": {
+      "$id": "#/properties/packageTypeCode",
+      "type": "string",
+      "title": "The code of package type"
+    },
+    "quantity": {
+      "$id": "#/properties/quantity",
+      "type": "integer",
+      "title": "The quantity"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "integer"
+    }
+  }
+}

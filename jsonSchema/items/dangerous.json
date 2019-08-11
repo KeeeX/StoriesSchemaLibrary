@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/dangerous",
+  "type": "object",
+  "title": "The dangerous item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "classe": {
+      "$id": "#/properties/classe",
+      "type": "string",
+      "title": "The class"
+    },
+    "exceptedQuantities": {
+      "$id": "#/properties/exceptedQuantities",
+      "type": "boolean",
+      "title": "Excepted quantities"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The good id"
+    },
+    "limitedQuantities": {
+      "$id": "#/properties/limitedQuantities",
+      "type": "boolean",
+      "title": "Limited quantities"
+    },
+    "limitedQuantity": {
+      "$id": "#/properties/limitedQuantity",
+      "type": "boolean",
+      "title": "Limited quantity"
+    },
+    "marinePollutant": {
+      "$id": "#/properties/marinePollutant",
+      "type": "boolean",
+      "title": "Marine pollutant"
+    },
+    "packageNbr": {
+      "$id": "#/properties/packageNbr",
+      "type": "integer",
+      "title": "The package number"
+    },
+    "packingGroup": {
+      "$id": "#/properties/packingGroup",
+      "type": "string",
+      "title": "The packing group"
+    },
+    "un": {
+      "$id": "#/properties/un",
+      "type": "string"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "integer",
+      "title": "The version number"
+    },
+    "weight": {
+      "$id": "#/properties/weight",
+      "type": "integer",
+      "title": "The weight"
+    }
+  }
+}

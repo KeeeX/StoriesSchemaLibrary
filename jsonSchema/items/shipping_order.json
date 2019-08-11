@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/shipping_order",
+  "type": "object",
+  "title": "The shipping order item",
+  "required": [
+    "announcementReferences",
+    "shippingOrderReference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "announcementReferences": {
+      "$id": "#/properties/announcementReferences",
+      "type": "array",
+      "title": "The list of announcement references",
+      "items": {
+        "$ref": "//items/announcement_reference"
+      }
+    },
+    "shippingOrderReference": {
+      "$id": "#/properties/shippingOrderReference",
+      "type": "string",
+      "title": "The shipping order reference"
+    },
+    "autoRelease": {
+      "$id": "#/properties/autoRelease",
+      "type": "string",
+      "title": "The auto release"
+    },
+    "numberOfDeclaration": {
+      "$id": "#/properties/numberOfDeclaration",
+      "type": ["string", "null"],
+      "title": "The number of declaration"
+    },
+    "shippingOrderUserReference": {
+      "$id": "#/properties/shippingOrderUserReference",
+      "type": "string",
+      "title": "The shipping order user reference"
+    },
+    "traders": {
+      "$id": "#/properties/traders",
+      "type": "array",
+      "title": "The list of traders",
+      "items": {
+        "$ref": "//items/trader"
+      }
+    }
+  }
+}

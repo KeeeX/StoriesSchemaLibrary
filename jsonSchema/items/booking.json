@@ -1,0 +1,130 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/booking",
+  "type": "object",
+  "title": "The booking item",
+  "required": [
+    "cargos",
+    "reference",
+    "type"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cargos": {
+      "$id": "#/properties/cargos",
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "$ref": "//items/cargo"
+      }
+    },
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type"
+    },
+    "agentTraderCode": {
+      "$id": "#/properties/agentTraderCode",
+      "type": "string",
+      "title": "The agent trader code"
+    },
+    "createdBy": {
+      "$id": "#/properties/createdBy",
+      "type": "string",
+      "title": "Created by"
+    },
+    "createdCommunity": {
+      "$id": "#/properties/createdCommunity",
+      "type": "string",
+      "title": "The created community"
+    },
+    "createdDate": {
+      "$id": "#/properties/createdDate",
+      "type": "string",
+      "title": "The created date"
+    },
+    "createdOrganization": {
+      "$id": "#/properties/createdOrganization",
+      "type": "string",
+      "title": "The created organization"
+    },
+    "deletedDate": {
+      "$id": "#/properties/deletedDate",
+      "type": "string",
+      "title": "The deleted date"
+    },
+    "folderId": {
+      "$id": "#/properties/folderId",
+      "type": "integer",
+      "title": "The folder Id"
+    },
+    "freightForwarderCode": {
+      "$id": "#/properties/freightForwarderCode",
+      "type": "string",
+      "title": "The freight forwarder code"
+    },
+    "freightForwarderReference": {
+      "$id": "#/properties/freightForwarderReference",
+      "type": "string",
+      "title": "The freight forwarder reference"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id"
+    },
+    "lastModifiedBy": {
+      "$id": "#/properties/lastModifiedBy",
+      "type": "string",
+      "title": "The last modified by"
+    },
+    "lastModifiedCommunity": {
+      "$id": "#/properties/lastModifiedCommunity",
+      "type": "string",
+      "title": "The last modified community"
+    },
+    "lastModifiedDate": {
+      "$id": "#/properties/lastModifiedDate",
+      "type": "string",
+      "title": "The last modified date"
+    },
+    "lastModifiedOrganization": {
+      "$id": "#/properties/lastModifiedOrganization",
+      "type": "string",
+      "title": "The last modified organization"
+    },
+    "location": {
+      "$id": "#/properties/location",
+      "type": "string",
+      "title": "The location"
+    },
+    "publishedDate": {
+      "$id": "#/properties/publishedDate",
+      "type": "string",
+      "title": "The published date"
+    },
+    "route": {
+      "$ref": "//items/route"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The status"
+    },
+    "terminalLocation": {
+      "$id": "#/properties/terminalLocation",
+      "type": "string",
+      "title": "The terminal location"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "integer",
+      "title": "The version number"
+    }
+  }
+}

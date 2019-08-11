@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/final_release",
+  "type": "object",
+  "title": "The final release file",
+  "required": [
+    "interchange",
+    "finalRelease"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "finalRelease": {
+      "$ref": "//items/final_release"
+    }
+  }
+}

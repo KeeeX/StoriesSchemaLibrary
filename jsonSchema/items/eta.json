@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/eta",
+  "type": "object",
+  "title": "The ETA item",
+  "required": [
+    "bookingReference",
+    "containerNumber",
+    "eta"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "containerNumber": {
+      "$id": "#/properties/containerNumber",
+      "type": "string",
+      "title": "The container number"
+    },
+    "eta": {
+      "$id": "#/properties/eta",
+      "type": "string",
+      "title": "The estimated time of arrival"
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The file name"
+    },
+    "portOfDestination": {
+      "$id": "#/properties/portOfDestination",
+      "type": "string",
+      "title": "The port of destination"
+    }
+  }
+}

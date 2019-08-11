@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/route",
+  "type": "object",
+  "title": "The route item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "callNumber": {
+      "$id": "#/properties/callNumber",
+      "type": "string",
+      "title": "The call number"
+    },
+    "eta": {
+      "$id": "#/properties/eta",
+      "type": "string",
+      "title": "The estimated time of arrival"
+    },
+    "etd": {
+      "$id": "#/properties/etd",
+      "type": "string",
+      "title": "The estimated time of delivery"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The id"
+    },
+    "newVoyage": {
+      "$id": "#/properties/newVoyage",
+      "type": "boolean",
+      "title": "New voyage"
+    },
+    "portOfDestination": {
+      "$id": "#/properties/portOfDestination",
+      "type": "string",
+      "title": "The port of destination"
+    },
+    "portOfLoading": {
+      "$id": "#/properties/portOfLoading",
+      "type": "string",
+      "title": "The port of loading"
+    },
+    "portOfOrigin": {
+      "$id": "#/properties/portOfOrigin",
+      "type": "string",
+      "title": "The port of origin"
+    },
+    "preCallNumber": {
+      "$id": "#/properties/preCallNumber",
+      "type": "string",
+      "title": "The precall number"
+    },
+    "vessel": {
+      "$id": "#/properties/vessel",
+      "type": "string",
+      "title": "The vessel"
+    },
+    "vesselName": {
+      "$id": "#/properties/vesselName",
+      "type": "string",
+      "title": "The vessel name"
+    },
+    "voyageNumber": {
+      "$id": "#/properties/voyageNumber",
+      "type": "string",
+      "title": "The voyage number"
+    }
+  }
+}

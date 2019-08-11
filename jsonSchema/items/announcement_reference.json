@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/announcement_reference",
+  "type": "object",
+  "title": "The announcement reference item",
+  "required": [
+    "announcementReference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "announcementReference": {
+      "$id": "#/properties/announcementReference",
+      "type": "string",
+      "title": "The announcement reference"
+    },
+    "trader": {
+      "$id": "#/properties/trader",
+      "type": "string",
+      "title": "The trader"
+    }
+  }
+}

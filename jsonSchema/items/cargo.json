@@ -1,0 +1,232 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/cargo",
+  "type": "object",
+  "title": "The cargo item",
+  "required": [
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "arrivalConfirmationDate": {
+      "$id": "#/properties/arrivalConfirmationDate",
+      "type": "string",
+      "title": "The arrival confirmation date"
+    },
+    "blIds": {
+      "$id": "#/properties/blIds",
+      "type": "array",
+      "title": "The list of ids of bill of loadings"
+    },
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "cargoMeasurements": {
+      "$id": "#/properties/cargoMeasurements",
+      "type": "array",
+      "title": "The cargo measurements"
+    },
+    "cargoSeals": {
+      "$id": "#/properties/cargoSeals",
+      "type": "array",
+      "title": "The list of cargo seals"
+    },
+    "createdBy": {
+      "$id": "#/properties/createdBy",
+      "type": "string",
+      "title": "Created by"
+    },
+    "createdCommunity": {
+      "$id": "#/properties/createdCommunity",
+      "type": "string",
+      "title": "Created community"
+    },
+    "createdDate": {
+      "$id": "#/properties/createdDate",
+      "type": "string",
+      "title": "The created date"
+    },
+    "createdOrganization": {
+      "$id": "#/properties/createdOrganization",
+      "type": "string",
+      "title": "Created organization"
+    },
+    "dangerous": {
+      "$id": "#/properties/dangerous",
+      "type": "array",
+      "title": "The list of dangerous",
+      "items": {
+        "$ref": "//items/dangerous"
+      }
+    },
+    "description": {
+      "$id": "#/properties/description",
+      "type": "string",
+      "title": "The description"
+    },
+    "domesticIndicator": {
+      "$id": "#/properties/domesticIndicator",
+      "type": "boolean",
+      "title": "Domestic indicator"
+    },
+    "empty": {
+      "$id": "#/properties/empty",
+      "type": "boolean",
+      "title": "Empty"
+    },
+    "fumigation": {
+      "$id": "#/properties/fumigation",
+      "type": "object",
+      "title": "The fumigation"
+    },
+    "goodsDescription": {
+      "$id": "#/properties/goodsDescription",
+      "type": "string",
+      "title": "The goods description"
+    },
+    "goodItems": {
+      "$id": "#/properties/goodItems",
+      "type": "array",
+      "title": "The list of good items",
+      "items": {
+        "$ref": "//items/good"
+      }
+    },
+    "lastModifiedBy": {
+      "$id": "#/properties/lastModifiedBy",
+      "type": "string",
+      "title": "Last modified by"
+    },
+    "lastModifiedCommunity": {
+      "$id": "#/properties/lastModifiedCommunity",
+      "type": "string",
+      "title": "Last modified community"
+    },
+    "lastModifiedDate": {
+      "$id": "#/properties/lastModifiedDate",
+      "type": "string",
+      "title": "The lastmodified date"
+    },
+    "lastModifiedOrganization": {
+      "$id": "#/properties/lastModifiedOrganization",
+      "type": "string",
+      "title": "Last modified organization"
+    },
+    "measurement": {
+      "$id": "#/properties/measurement",
+      "type": "array",
+      "title": "The list of measurements"
+    },
+    "netWeight": {
+      "$id": "#/properties/netWeight",
+      "type": "integer",
+      "title": "The net weight"
+    },
+    "nonOperatedReefer": {
+      "$id": "#/properties/nonOperatedReefer",
+      "type": "boolean",
+      "title": "Non operated reefer"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "integer",
+      "title": "The Id"
+    },
+    "inlandCarrierReference": {
+      "$id": "#/properties/inlandCarrierReference",
+      "type": "string",
+      "title": "The inland carrier reference"
+    },
+    "ics": {
+      "$id": "#/properties/ics",
+      "type": "object",
+      "title": "The ics"
+    },
+    "oversize": {
+      "$id": "#/properties/oversize",
+      "type": "object",
+      "title": "The oversize object"
+    },
+    "packageCount": {
+      "$id": "#/properties/packageCount",
+      "type": "integer",
+      "title": "The package count"
+    },
+    "packageTypeCode": {
+      "$id": "#/properties/packageTypeCode",
+      "type": "string",
+      "title": "The package type code"
+    },
+    "preArrivalNotification": {
+      "$id": "#/properties/preArrivalNotification",
+      "type": "boolean",
+      "title": "Pre arrival notification"
+    },
+    "rank": {
+      "$id": "#/properties/rank",
+      "type": "integer",
+      "title": "The rank number"
+    },
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "reefer": {
+      "$id": "#/properties/reefer",
+      "type": "object",
+      "title": "The reefer"
+    },
+    "seal": {
+      "$id": "#/properties/seal",
+      "type": "array",
+      "title": "The list of seals"
+    },
+    "seqNumber": {
+      "$id": "#/properties/seqNumber",
+      "type": "integer",
+      "title": "The sequence number"
+    },
+    "shippingOrderId": {
+      "$id": "#/properties/shippingOrderId",
+      "type": "integer",
+      "title": "The shipping order id"
+    },
+    "shipperOwned": {
+      "$id": "#/properties/shipperOwned",
+      "type": "boolean",
+      "title": "Shipper owned"
+    },
+    "status": {
+      "$id": "#/properties/status",
+      "type": "string",
+      "title": "The status"
+    },
+    "tare": {
+      "$id": "#/properties/tare",
+      "type": "integer",
+      "title": "The tare"
+    },
+    "terminalCode": {
+      "$id": "#/properties/terminalCode",
+      "type": "string",
+      "title": "The terminal code"
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The type"
+    },
+    "version": {
+      "$id": "#/properties/version",
+      "type": "integer",
+      "title": "The version number"
+    },
+    "vgms": {
+      "$id": "#/properties/vgms",
+      "type": "array",
+      "title": "The list of vgms"
+    }
+  }
+}

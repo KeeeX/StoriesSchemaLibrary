@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/image",
+  "type": "object",
+  "title": "The image file",
+  "required": [
+    "interchange",
+    "image"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "image": {
+      "$ref": "//items/image"
+    }
+  }
+}

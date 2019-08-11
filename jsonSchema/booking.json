@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//stories/booking",
+  "type": "object",
+  "title": "The booking data",
+  "required": [
+    "interchange",
+    "booking"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "booking": {
+      "$ref": "//items/booking"
+    }
+  }
+}

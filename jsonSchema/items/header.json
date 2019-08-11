@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/header",
+  "type": "object",
+  "title": "The header item",
+  "required": [
+    "bookingReference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "carrierTraderCode": {
+      "$id": "#/properties/carrierTraderCode",
+      "type": "string",
+      "title": "The carrier trader code"
+    },
+    "direction": {
+      "$id": "#/properties/direction",
+      "type": "string",
+      "title": "The direction"
+    },
+    "shippingAgentTraderCode": {
+      "$id": "#/properties/shippingAgentTraderCode",
+      "type": "string",
+      "title": "The shipping agent trader code"
+    },
+    "shippingAgentTraderLabel": {
+      "$id": "#/properties/shippingAgentTraderLabel",
+      "type": "string",
+      "title": "The shipping agent trader label"
+    },
+    "statusDate": {
+      "$id": "#/properties/statusDate",
+      "type": "string",
+      "title": "The status date"
+    },
+    "terminalOperatorTraderCode": {
+      "$id": "#/properties/terminalOperatorTraderCode",
+      "type": "string",
+      "title": "The terminal operator trader code"
+    },
+    "terminalOperatorTraderLabel": {
+      "$id": "#/properties/terminalOperatorTraderLabel",
+      "type": "string",
+      "title": "The terminal operator trader label"
+    },
+    "terminalLocation": {
+      "$id": "#/properties/terminalLocation",
+      "type": "string",
+      "title": "The terminal location"
+    }
+  }
+}

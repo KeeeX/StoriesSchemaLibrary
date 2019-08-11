@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/cargo_pack",
+  "type": "object",
+  "title": "The cargo pack item",
+  "required": [
+    "cargos",
+    "header"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "cargos": {
+      "$id": "#/properties/cargos",
+      "type": "array",
+      "title": "The list of cargos",
+      "items": {
+        "$ref": "//items/cargo"
+      }
+    },
+    "header": {
+      "$ref": "//items/header"
+    },
+    "route": {
+      "$ref": "//items/route"
+    },
+    "traders": {
+      "$id": "#/properties/traders",
+      "type": "array",
+      "title": "The list of traders",
+      "items": {
+        "$ref": "//items/trader"
+      }
+    }
+  }
+}

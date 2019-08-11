@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/vgm",
+  "type": "object",
+  "title": "The verified gross mass item",
+  "required": [
+    "bookingReference",
+    "reference",
+    "unit",
+    "weight"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "name": {
+      "$id": "#/properties/name",
+      "type": "string",
+      "title": "The file name"
+    },
+    "unit": {
+      "$id": "#/properties/unit",
+      "type": "string",
+      "title": "Unit"
+    },
+    "weight": {
+      "$id": "#/properties/weight",
+      "type": [ "integer", "string" ],
+      "title": "Weight"
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "Equipment type"
+    }
+  }
+}

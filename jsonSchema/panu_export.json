@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/panu_export",
+  "type": "object",
+  "title": "The panu export file",
+  "required": [
+    "interchange",
+    "cargo"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "cargo": {
+      "$ref": "//items/cargo_pack"
+    }
+  }
+}

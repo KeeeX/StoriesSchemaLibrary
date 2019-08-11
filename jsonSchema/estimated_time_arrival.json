@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/eta",
+  "type": "object",
+  "title": "The estimated time of arrival data",
+  "required": [
+    "interchange",
+    "eta"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "$ref": "//items/interchange"
+    },
+    "eta": {
+      "$ref": "//items/eta"
+    }
+  }
+}

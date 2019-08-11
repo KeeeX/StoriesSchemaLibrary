@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/container",
+  "type": "object",
+  "title": "The container file",
+  "required": [
+    "interchange",
+    "container"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "allOf": [
+        {
+          "$ref": "//items/interchange"
+        },
+        {
+          "properties": {
+            "action": {
+              "$id": "#/properties/interchange/action",
+              "type": "string",
+              "title": "The action",
+              "const": "INSERT"
+            }
+          }
+        }
+      ]
+    },
+    "container": {
+      "$ref": "//items/container"
+    }
+  }
+}

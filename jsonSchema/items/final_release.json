@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//items/final_release",
+  "type": "object",
+  "title": "The final release item",
+  "required": [
+    "header"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "header": {
+      "$ref": "//items/header"
+    },
+    "cargo": {
+      "$ref": "//items/cargo"
+    },
+    "customsdeclaration": {
+      "$id": "#/properties/customsdeclaration",
+      "type": "array",
+      "title": "The list of custom declarations",
+      "items": {
+        "$ref": "//items/declaration"
+      }
+    },
+    "exportRoute": {
+      "$ref": "//items/route"
+    },
+    "traders": {
+      "$id": "#/properties/traders",
+      "type": "array",
+      "title": "The list of traders",
+      "items": {
+        "$ref": "//items/trader"
+      }
+    }
+  }
+}
