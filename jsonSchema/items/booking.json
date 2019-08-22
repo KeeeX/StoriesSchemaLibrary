@@ -15,7 +15,7 @@
       "type": "array",
       "title": "The list of cargos",
       "items": {
-        "$ref": "//items/cargo"
+        "$ref": "./cargo.json"
       }
     },
     "reference": {
@@ -109,7 +109,7 @@
       "title": "The published date"
     },
     "route": {
-      "$ref": "//items/route"
+      "$ref": "./route.json"
     },
     "status": {
       "$id": "#/properties/status",

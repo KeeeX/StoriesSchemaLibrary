@@ -10,10 +10,10 @@
   "additionalProperties": false,
   "properties": {
     "interchange": {
-      "$ref": "//items/interchange"
+      "$ref": "./items/interchange.json"
     },
     "booking": {
-      "$ref": "//items/booking"
+      "$ref": "./items/booking.json"
     }
   }
 }

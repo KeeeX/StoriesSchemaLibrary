@@ -57,7 +57,7 @@
       "type": "array",
       "title": "The list of dangerous",
       "items": {
-        "$ref": "//items/dangerous"
+        "$ref": "./dangerous.json"
       }
     },
     "description": {
@@ -90,7 +90,7 @@
       "type": "array",
       "title": "The list of good items",
       "items": {
-        "$ref": "//items/good"
+        "$ref": "./good.json"
       }
     },
     "lastModifiedBy": {

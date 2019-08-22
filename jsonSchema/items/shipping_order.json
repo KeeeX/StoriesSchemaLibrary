@@ -14,7 +14,7 @@
       "type": "array",
       "title": "The list of announcement references",
       "items": {
-        "$ref": "//items/announcement_reference"
+        "$ref": "./announcement_reference.json"
       }
     },
     "shippingOrderReference": {
@@ -42,7 +42,7 @@
       "type": "array",
       "title": "The list of traders",
       "items": {
-        "$ref": "//items/trader"
+        "$ref": "./trader.json"
       }
     }
   }

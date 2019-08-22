@@ -12,7 +12,7 @@
     "interchange": {
       "allOf": [
         {
-          "$ref": "//items/interchange"
+          "$ref": "./items/interchange.json"
         },
         {
           "properties": {
@@ -27,7 +27,7 @@
       ]
     },
     "container": {
-      "$ref": "//items/container"
+      "$ref": "./items/container.json"
     }
   }
 }

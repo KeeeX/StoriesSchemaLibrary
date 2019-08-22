@@ -14,21 +14,21 @@
       "type": "array",
       "title": "The list of cargos",
       "items": {
-        "$ref": "//items/cargo"
+        "$ref": "./cargo.json"
       }
     },
     "header": {
-      "$ref": "//items/header"
+      "$ref": "./header.json"
     },
     "route": {
-      "$ref": "//items/route"
+      "$ref": "./route.json"
     },
     "traders": {
       "$id": "#/properties/traders",
       "type": "array",
       "title": "The list of traders",
       "items": {
-        "$ref": "//items/trader"
+        "$ref": "./trader.json"
       }
     }
   }

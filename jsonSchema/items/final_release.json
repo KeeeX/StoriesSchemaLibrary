@@ -9,28 +9,28 @@
   "additionalProperties": false,
   "properties": {
     "header": {
-      "$ref": "//items/header"
+      "$ref": "./header.json"
     },
     "cargo": {
-      "$ref": "//items/cargo"
+      "$ref": "./cargo.json"
     },
     "customsdeclaration": {
       "$id": "#/properties/customsdeclaration",
       "type": "array",
       "title": "The list of custom declarations",
       "items": {
-        "$ref": "//items/declaration"
+        "$ref": "./declaration.json"
       }
     },
     "exportRoute": {
-      "$ref": "//items/route"
+      "$ref": "./route.json"
     },
     "traders": {
       "$id": "#/properties/traders",
       "type": "array",
       "title": "The list of traders",
       "items": {
-        "$ref": "//items/trader"
+        "$ref": "./trader.json"
       }
     }
   }
