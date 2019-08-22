@@ -1,0 +1,18 @@
+{
+  "name": "stories_schema_library",
+  "version": "0.0.1",
+  "description": "Stories schema library",
+  "author": {
+    "name": "KeeeX SAS",
+    "email": "contact@keeex.me",
+    "url": "https://keeex.me"
+  },
+  "scripts": {
+    "build": "node ./build"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7",
+    "yargs": "^14.0.0"
+  }
+}
