@@ -51,6 +51,7 @@ async function createSchema(community, file, publicMetadata, schemas) {
   assert(fs.existsSync(file), "Schema file doesn't exist");
 
   let formData = {
+    community: community,
     file: {
       value: fs.createReadStream(file),
       options: {
@@ -91,6 +92,7 @@ async function updateSchema(schemaIdx, file, publicMetadata, schemas) {
   assert(fs.existsSync(file), "Schema file doesn't exist");
 
   let formData = {
+    idx: schemaIdx,
     file: {
       value: fs.createReadStream(file),
       options: {

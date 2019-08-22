@@ -55,7 +55,8 @@ storiesService.init({
     for (let i = 0; i < files.length; i++) {
       let file = files[i];
       let filePath = path.join(inputFolder, file.name);
-      let basename = path.basename(file.name);
+      let basename = path.basename(file.name, ".json");
+      console.log(`Processing file: ${filePath}`);
 
       // Check if this file is already processed
       let hash = await utilHelper.computeHash(filePath);
