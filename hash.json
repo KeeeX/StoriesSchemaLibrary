@@ -1,0 +1,14 @@
+{
+  "booking": "da89a1ebe0d0c93394ea75362fe17f5e5501c3cdc3a2e565f95502d317019b99",
+  "container": "e3044915bf0f802a6699c03247f268483e551eab3c9904d332310ceeb951415a",
+  "container_closed_event": "10af1dccdc25bd448c8edc7b42ba11284fe004b732b708272a9da5bc7a344eff",
+  "discharge_list": "3f0f048ca9d18aeaec485c4d1b77a2fcaaa8474ce6831509e3f3f3e3555c89d3",
+  "estimated_time_arrival": "03394c0b68072db4cbd4726796cee848adb7002f878bd4c2b204e1593d3c0475",
+  "final_release": "b0e6843d4fafa17aec10a575fe4e457f74a1524ccccfdc2e34276e69b74ca91b",
+  "image": "7731c6c8b20ce390cee93049c3c5fa4f4a2f5f427572386945536ebc4c294aa3",
+  "panu_export": "012ea279ecb64d035488c3a2eb2657d4f1580c40abfac1580ae141d013feba23",
+  "seal": "1b459e14dd44bab7255c6a5b1f76f791c8771807bf1b741fa6cfd7da8fba721d",
+  "seen_at_gate_event": "ce4d17344128b46da920fa26ebec325627a439d957d723ef7469f9e211d47346",
+  "shipping_order": "c25730548012edf214512e720e7df8a035ad2683d51ca09790482fd081e74097",
+  "verified_gross_mass": "da7bbacaa2f98302afde5bb5385b91c38d83d463bcf33fa735e035cf7f735aaf"
+}
