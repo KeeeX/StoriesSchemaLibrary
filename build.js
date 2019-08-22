@@ -73,15 +73,17 @@ storiesService.init({
 
       // Create or update schema
       let idx = schemaIdx
-        ? await storiesService.createSchema(argv.community, filePath)
-        : await storiesService.updateSchema(schemaIdx, filePath);
+        ? await storiesService.updateSchema(schemaIdx, filePath)
+        : await storiesService.createSchema(argv.community, filePath);
 
       // Update locale information for later use
       hashes[basename] = hash;
       schemaIdxs[basename].push(idx);
     }
 
-
+    // Export data
+    await utilHelper.exportData(hashes, hashFile);
+    await utilHelper.exportData(schemaIdxs, outputFile);
   })
   .catch((error) => {
     console.log(error);
