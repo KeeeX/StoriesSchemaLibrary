@@ -1,0 +1,33 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/link_booking",
+  "type": "object",
+  "title": "The link file anchoring a container to the booking",
+  "required": [
+    "interchange",
+    "container"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "interchange": {
+      "allOf": [
+        {
+          "$ref": "./items/interchange.json"
+        },
+        {
+          "properties": {
+            "action": {
+              "$id": "#/properties/interchange/action",
+              "type": "string",
+              "title": "The action",
+              "const": "LINK"
+            }
+          }
+        }
+      ]
+    },
+    "container": {
+      "$ref": "./items/container.json"
+    }
+  }
+}

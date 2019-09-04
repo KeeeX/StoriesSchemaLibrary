@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "//files/image_private",
+  "type": "object",
+  "title": "The schema used to validate private metadata in the image file",
+  "required": [
+    "bookingReference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "bookingReference": {
+      "$id": "#/properties/bookingReference",
+      "type": "string",
+      "title": "The booking reference"
+    },
+    "containerNumber": {
+      "$id": "#/properties/containerNumber",
+      "type": "string",
+      "title": "The container number"
+    },
+    "documentType": {
+      "$id": "#/properties/documentType",
+      "type": "string",
+      "title": "The document type"
+    }
+  }
+}
