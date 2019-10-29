@@ -5,3 +5,7 @@
 - __logisteeex__
 
   The schemas of LogisteeeX service
+
+- __blb__
+
+  The schemas of BLB service
