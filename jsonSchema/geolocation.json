@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "geolocation",
+  "type": "object",
+  "title": "The geolocation",
+  "required": [
+    "latitude",
+    "longitude"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "latitude": {
+      "$id": "#/properties/latitude",
+      "type": "string",
+      "title": "The latitude"
+    },
+    "longitude": {
+      "$id": "#/properties/longitude",
+      "type": "string",
+      "title": "The longitude"
+    }
+  }
+}

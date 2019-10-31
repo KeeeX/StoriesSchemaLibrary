@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "refining",
+  "type": "object",
+  "title": "The refining",
+  "required": [
+    "fileName",
+    "mimeType"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "fileName": {
+      "$id": "#/properties/fileName",
+      "type": "string",
+      "title": "The photo name"
+    },
+    "mimeType": {
+      "$id": "#/properties/mimeType",
+      "type": "string",
+      "title": "The mime type"
+    },
+    "size": {
+      "$id": "#/properties/size",
+      "type": "number",
+      "title": "the photo size in bytes"
+    }
+  }
+}

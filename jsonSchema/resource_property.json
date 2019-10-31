@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "resourceProperty",
+  "type": "object",
+  "title": "The resource property",
+  "required": [
+    "key",
+    "value"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "key": {
+      "$id": "#/properties/key",
+      "type": "string",
+      "title": "The property name"
+    },
+    "value": {
+      "$id": "#/properties/value",
+      "type": "string",
+      "title": "The property value"
+    }
+  }
+}
