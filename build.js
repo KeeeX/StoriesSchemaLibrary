@@ -80,11 +80,11 @@ storiesService.init({
       // Update locale information for later use
       hashes[basename] = hash;
       schemaIdxs[basename].push(idx);
-    }
 
-    // Export data
-    await utilHelper.exportData(hashes, hashFile);
-    await utilHelper.exportData(schemaIdxs, outputFile);
+      // Export data
+      await utilHelper.exportData(hashes, hashFile);
+      await utilHelper.exportData(schemaIdxs, outputFile);
+    }
   })
   .catch((error) => {
     console.log(error);
