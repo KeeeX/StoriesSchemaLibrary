@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "object",
+  "type": "object",
+  "title": "The object",
+  "required": [
+    "reference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference of the object",
+      "examples": [
+        "EXPLOITATION_001",
+        "LOT_001"
+      ]
+    }
+  }
+}

@@ -92,7 +92,7 @@ async function updateSchema(schemaIdx, file, publicMetadata, schemas) {
   assert(fs.existsSync(file), "Schema file doesn't exist");
 
   let formData = {
-    idx: schemaIdx,
+    schemaIdx: schemaIdx,
     file: {
       value: fs.createReadStream(file),
       options: {
