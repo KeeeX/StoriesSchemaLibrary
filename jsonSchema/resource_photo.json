@@ -1,28 +1,11 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "resourcePhoto",
-  "type": "object",
-  "title": "The photo of resource",
-  "required": [
-    "fileName",
-    "mimeType"
-  ],
-  "additionalProperties": false,
-  "properties": {
-    "fileName": {
-      "$id": "#/properties/fileName",
-      "type": "string",
-      "title": "The photo name"
+  "allOf": [
+    {
+      "$ref": "./items/file.json"
     },
-    "mimeType": {
-      "$id": "#/properties/mimeType",
-      "type": "string",
-      "title": "The mime type"
-    },
-    "size": {
-      "$id": "#/properties/size",
-      "type": "number",
-      "title": "the photo size in bytes"
+    {
+      "$id": "resourcePhoto",
+      "title": "The photo of the resource"
     }
-  }
+  ]
 }

@@ -4,8 +4,8 @@
       "$ref": "./items/file.json"
     },
     {
-      "$id": "analysisResult",
-      "title": "The analysis result document"
+      "$id": "label",
+      "title": "The label"
     }
   ]
 }

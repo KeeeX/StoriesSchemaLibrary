@@ -20,15 +20,7 @@
       "title": "The type of resource"
     },
     "links": {
-      "$id": "#/properties/links",
-      "type": "object",
-      "title": "IDX links to other objects",
-      "examples": [
-        {
-          "lot": "xodil-hucof-lukup-dydyl-vyles-fysud-vyhan-zezek-mofuh-geciv-rotyh-runyl-somez-zetob-nitug-valam-loxix",
-          "exploitation": "xeboz-nehyb-nabar-hocut-rurut-cokik-kataz-nuneg-tysyp-kodun-pygit-mafur-hofah-pynos-ritef-gizip-coxix"
-        }
-      ]
+      "$ref": "./items/links.json"
     }
   }
 }

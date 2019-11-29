@@ -1,9 +1,11 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "harvestPhoto",
-  "type": "object",
-  "title": "The harvest photo",
   "allOf": [
-    { "$ref": "./items/file.json" }
+    {
+      "$ref": "./items/file.json"
+    },
+    {
+      "$id": "harvestPhoto",
+      "title": "The photo of the harvesting process"
+    }
   ]
 }

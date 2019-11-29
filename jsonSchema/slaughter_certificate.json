@@ -1,28 +1,11 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "slaughterCertificate",
-  "type": "object",
-  "title": "The official certification of slaughter equipment",
-  "required": [
-    "fileName",
-    "mimeType"
-  ],
-  "additionalProperties": false,
-  "properties": {
-    "fileName": {
-      "$id": "#/properties/fileName",
-      "type": "string",
-      "title": "The file name"
+  "allOf": [
+    {
+      "$ref": "./items/file.json"
     },
-    "mimeType": {
-      "$id": "#/properties/mimeType",
-      "type": "string",
-      "title": "The mime type"
-    },
-    "size": {
-      "$id": "#/properties/size",
-      "type": "number",
-      "title": "the file size in bytes"
+    {
+      "$id": "slaughterCertificate",
+      "title": "The official certification of slaughter equipment"
     }
-  }
+  ]
 }
