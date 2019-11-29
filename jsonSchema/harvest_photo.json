@@ -3,26 +3,7 @@
   "$id": "harvestPhoto",
   "type": "object",
   "title": "The harvest photo",
-  "required": [
-    "fileName",
-    "mimeType"
-  ],
-  "additionalProperties": false,
-  "properties": {
-    "fileName": {
-      "$id": "#/properties/fileName",
-      "type": "string",
-      "title": "The file name"
-    },
-    "mimeType": {
-      "$id": "#/properties/mimeType",
-      "type": "string",
-      "title": "The mime type"
-    },
-    "size": {
-      "$id": "#/properties/size",
-      "type": "number",
-      "title": "the file size in bytes"
-    }
-  }
+  "allOf": [
+    { "$ref": "./items/file.json" }
+  ]
 }
