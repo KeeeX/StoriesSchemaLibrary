@@ -1,0 +1,11 @@
+{
+  "allOf": [
+    {
+      "$ref": "./items/file.json"
+    },
+    {
+      "$id": "syntheticPesticideAnalysis",
+      "title": "The synthetic pesticide analysis document"
+    }
+  ]
+}
