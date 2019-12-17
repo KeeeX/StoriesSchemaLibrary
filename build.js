@@ -13,6 +13,7 @@ const argv = yargs
   .alias("p", "password")
   .alias("i", "input")
   .alias("o", "output")
+  .alias("s", "hash")
   .alias("h", "help")
   .alias("v", "version")
   .describe("c", "Configuration file in JSON format")
@@ -33,7 +34,10 @@ outputFile = path.isAbsolute(outputFile)
   ? outputFile
   : path.join(process.cwd(), outputFile);
 
-let hashFile = path.join(process.cwd(), "hash.json");
+let hashFile = argv.hash || "hash.json";
+hashFile = path.isAbsolute(hashFile)
+  ? hashFile
+  : path.join(process.cwd(), hashFile);
 
 storiesService.init({
   email: argv.email,
