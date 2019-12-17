@@ -1,0 +1,25 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bl",
+  "type": "object",
+  "title": "Bill of lading",
+  "required": [
+    "reference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "estimatedDeliveryDate": {
+      "$id": "#/properties/estimatedDeliveryDate",
+      "type": "string",
+      "title": "The estimated delivery date"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bpligne",
+  "type": "object",
+  "title": "BP Ligne",
+  "required": [
+    "reference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "quantity": {
+      "$id": "#/properties/quantity",
+      "type": "integer",
+      "title": "The quantity"
+    },
+    "components": {
+      "$id": "#/properties/components",
+      "type": "string",
+      "title": "The components"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}

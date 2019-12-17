@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bp",
+  "type": "object",
+  "title": "BP",
+  "required": [
+    "reference"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "orderNumber": {
+      "$id": "#/properties/orderNumber",
+      "type": "string",
+      "title": "The order number"
+    },
+    "orderReference": {
+      "$id": "#/properties/orderReference",
+      "type": "string",
+      "title": "The order reference"
+    },
+    "orderDate": {
+      "$id": "#/properties/orderDate",
+      "type": "string",
+      "title": "The order date"
+    },
+    "preparationDate": {
+      "$id": "#/properties/preparationDate",
+      "type": "string",
+      "title": "The preparation date"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}
