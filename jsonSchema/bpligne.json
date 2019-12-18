@@ -2,26 +2,26 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "bpligne",
   "type": "object",
-  "title": "BP Ligne",
+  "title": "Ligne de Bon de Préparation",
   "required": [
     "reference"
   ],
-  "additionalProperties": false,
+  "additionalProperties": true,
   "properties": {
     "reference": {
       "$id": "#/properties/reference",
       "type": "string",
       "title": "The reference"
     },
-    "quantity": {
-      "$id": "#/properties/quantity",
-      "type": "integer",
-      "title": "The quantity"
-    },
-    "components": {
-      "$id": "#/properties/components",
-      "type": "string",
+    "bp_lignes_composants": {
+      "$id": "#/properties/bp_lignes_composants",
+      "type": "array",
       "title": "The components"
+    },
+    "quantite": {
+      "$id": "#/properties/quantite",
+      "type": "string",
+      "title": "The quantity"
     },
     "links": {
       "$ref": "./items/links.json"

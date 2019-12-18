@@ -2,36 +2,51 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "bp",
   "type": "object",
-  "title": "BP",
+  "title": "Bon de Préparation",
   "required": [
     "reference"
   ],
-  "additionalProperties": false,
+  "additionalProperties": true,
   "properties": {
     "reference": {
       "$id": "#/properties/reference",
       "type": "string",
       "title": "The reference"
     },
-    "orderNumber": {
-      "$id": "#/properties/orderNumber",
-      "type": "string",
-      "title": "The order number"
-    },
-    "orderReference": {
-      "$id": "#/properties/orderReference",
-      "type": "string",
-      "title": "The order reference"
-    },
-    "orderDate": {
-      "$id": "#/properties/orderDate",
+    "commande_date": {
+      "$id": "#/properties/commande_date",
       "type": "string",
       "title": "The order date"
     },
-    "preparationDate": {
-      "$id": "#/properties/preparationDate",
+    "commande_num": {
+      "$id": "#/properties/commande_num",
+      "type": "string",
+      "title": "The order number"
+    },
+    "commande_ref": {
+      "$id": "#/properties/commande_ref",
+      "type": "string",
+      "title": "The order reference"
+    },
+    "date_creation": {
+      "$id": "#/properties/date_creation",
+      "type": "string",
+      "title": "The creation date"
+    },
+    "date_modification": {
+      "$id": "#/properties/date_modification",
+      "type": "string",
+      "title": "The modification reference"
+    },
+    "date_preparation": {
+      "$id": "#/properties/date_preparation",
       "type": "string",
       "title": "The preparation date"
+    },
+    "etat": {
+      "$id": "#/properties/etat",
+      "type": "string",
+      "title": "The state"
     },
     "links": {
       "$ref": "./items/links.json"

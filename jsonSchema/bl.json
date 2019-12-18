@@ -2,21 +2,36 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "bl",
   "type": "object",
-  "title": "Bill of lading",
+  "title": "Bon de Livraison",
   "required": [
     "reference"
   ],
-  "additionalProperties": false,
+  "additionalProperties": true,
   "properties": {
     "reference": {
       "$id": "#/properties/reference",
       "type": "string",
       "title": "The reference"
     },
-    "estimatedDeliveryDate": {
-      "$id": "#/properties/estimatedDeliveryDate",
+    "date_creation": {
+      "$id": "#/properties/date_creation",
+      "type": "string",
+      "title": "The creation date"
+    },
+    "date_livraison_estime": {
+      "$id": "#/properties/date_livraison_estime",
       "type": "string",
       "title": "The estimated delivery date"
+    },
+    "date_modification": {
+      "$id": "#/properties/date_modification",
+      "type": "string",
+      "title": "The modification date"
+    },
+    "etat": {
+      "$id": "#/properties/etat",
+      "type": "string",
+      "title": "The status"
     },
     "links": {
       "$ref": "./items/links.json"

@@ -1,11 +1,11 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "lot",
+  "$id": "product",
   "type": "object",
-  "title": "The lot",
+  "title": "The product",
   "required": [
     "reference",
-    "type_production"
+    "famille_produit"
   ],
   "additionalProperties": true,
   "properties": {
@@ -14,10 +14,10 @@
       "type": "string",
       "title": "The reference"
     },
-    "type_production": {
-      "$id": "#/properties/type_production",
+    "famille_produit": {
+      "$id": "#/properties/famille_produit",
       "type": "string",
-      "title": "The type of production",
+      "title": "The type of product",
       "examples": [
         "Viticulteur",
         "Ostréiculteur",
@@ -30,25 +30,18 @@
         "Légumes secs"
       ]
     },
-    "date_dluo": {
-      "$id": "#/properties/date_dluo",
+    "date_creation_produit": {
+      "$id": "#/properties/date_creation_produit",
       "type": "string"
     },
-    "date_entree_stock": {
-      "$id": "#/properties/date_entree_stock",
+    "exploitation_principale": {
+      "$id": "#/properties/exploitation_principale",
       "type": "string"
     },
-    "numero_document_entree": {
-      "$id": "#/properties/numero_document_entree",
-      "type": "string"
-    },
-    "serie": {
-      "$id": "#/properties/serie",
-      "type": "string"
-    },
-    "type_entree": {
-      "$id": "#/properties/type_entree",
-      "type": "string"
+    "nom_produit": {
+      "$id": "#/properties/nom_produit",
+      "type": "string",
+      "description": "The product name"
     },
     "links": {
       "$ref": "./items/links.json"
