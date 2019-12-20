@@ -4,8 +4,7 @@
   "type": "object",
   "title": "The lot",
   "required": [
-    "reference",
-    "type_production"
+    "reference"
   ],
   "additionalProperties": true,
   "properties": {
