@@ -1,6 +1,6 @@
 {
   "name": "stories_schema_library",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Stories schema library",
   "author": {
     "name": "KeeeX SAS",
@@ -8,7 +8,9 @@
     "url": "https://keeex.me"
   },
   "scripts": {
-    "build": "node ./build"
+    "deref": "node ./deref -i jsonSchema -o compiled",
+    "build-test": "node ./build -c \"TEST BLB\" -i compiled -s hash_test_blb.json -o schema_idx_test_blb.json",
+    "build": "node ./build -c \"BLB\" -i compiled -s hash_test_blb.json -o schema_idx_test_blb.json"
   },
   "dependencies": {
     "json-schema-ref-parser": "^7.1.2",
