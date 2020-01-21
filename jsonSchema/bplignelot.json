@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bplignelot",
+  "type": "object",
+  "title": "Ligne de Bon de Préparation - Lot",
+  "required": [
+    "reference"
+  ],
+  "additionalProperties": true,
+  "properties": {
+    "reference": {
+      "$id": "#/properties/reference",
+      "type": "string",
+      "title": "The reference"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}
