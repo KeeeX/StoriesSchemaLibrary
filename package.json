@@ -8,7 +8,8 @@
     "url": "https://keeex.me"
   },
   "scripts": {
-    "build": "node ./build"
+    "build": "node ./build",
+    "deref": "node deref -i jsonSchema -o compiled"
   },
   "dependencies": {
     "request": "^2.88.0",
