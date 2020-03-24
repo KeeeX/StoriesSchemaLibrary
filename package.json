@@ -12,6 +12,7 @@
     "deref": "node deref -i jsonSchema -o compiled"
   },
   "dependencies": {
+    "json-schema-ref-parser": "^8.0.0",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7",
     "yargs": "^14.0.0"
