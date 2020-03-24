@@ -9,3 +9,7 @@
 - __blb__
 
   The schemas of BLB service
+
+- __identities__
+
+  The schemas of KeeeX Identities service
