@@ -1,15 +1,19 @@
-# __KeeeX Stories Schema library__
+# __KeeeX Identities Schemas__
 
-## __Branches__
+## __Schemas__
 
-- __logisteeex__
+- __group__
 
-  The schemas of LogisteeeX service
+  The schema of a node on `group` scope
 
-- __blb__
+- __admins__
 
-  The schemas of BLB service
+  The schema of a node on `admin` scope
 
-- __identities__
+- __identity__
 
-  The schemas of KeeeX Identities service
+  The schema of a node on `identity` scope
+
+- __member__
+
+  The schema of a node on `member` scope
