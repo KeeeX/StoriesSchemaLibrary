@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "member",
+  "type": "object",
+  "title": "A member of a group",
+  "additionalProperties": true,
+  "properties": {
+    "member": {
+      "type": "string",
+      "description": "A member identity's address"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}

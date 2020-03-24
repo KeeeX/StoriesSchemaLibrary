@@ -1,0 +1,23 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "identity",
+  "type": "object",
+  "title": "An identity",
+  "additionalProperties": true,
+  "required": [
+    "publicKey",
+    "group"
+  ],
+  "properties": {
+    "publicKey": {
+      "$ref": "./items/bitcoin_identity.json"
+    },
+    "group": {
+      "type": "string",
+      "description": "The group's name"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}

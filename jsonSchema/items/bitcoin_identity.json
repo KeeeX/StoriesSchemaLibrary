@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "bitcoin_identity",
+  "type": "object",
+  "title": "A Bitcoin identity",
+  "required": [
+    "type",
+    "address"
+  ],
+  "properties": {
+    "type": {
+      "const": "bitcoin"
+    },
+    "address": {
+      "type": "string",
+      "description": "Bitcoin address of the identity"
+    }
+  }
+}

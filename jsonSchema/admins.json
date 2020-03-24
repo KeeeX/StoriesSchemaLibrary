@@ -1,0 +1,10 @@
+{
+  "oneOf": [
+    {
+      "$ref": "./initial_admin.json"
+    },
+    {
+      "$ref": "./trusted_admins.json"
+    }
+  ]
+}

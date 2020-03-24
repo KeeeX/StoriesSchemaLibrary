@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "trusted_admins",
+  "type": "object",
+  "title": "Trusted admins of a group",
+  "additionalProperties": true,
+  "required": [
+    "trustedKeys"
+  ],
+  "properties": {
+    "trustedKeys": {
+      "type": "array",
+      "items": {
+        "$ref": "./items/bitcoin_identity.json"
+      }
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}

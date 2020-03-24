@@ -1,0 +1,28 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "group",
+  "type": "object",
+  "title": "A group",
+  "additionalProperties": true,
+  "properties": {
+    "displayName": {
+      "type": "string",
+      "description": "The display name of the group for end users"
+    },
+    "description": {
+      "type": "string",
+      "description": "The group's description"
+    },
+    "logoURL": {
+      "type": "string",
+      "description": "The URL of the group's logo"
+    },
+    "siteURL": {
+      "type": "string",
+      "description": "The URL of the group's website"
+    },
+    "links": {
+      "$ref": "./items/links.json"
+    }
+  }
+}
