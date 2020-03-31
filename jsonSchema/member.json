@@ -6,8 +6,7 @@
   "additionalProperties": true,
   "properties": {
     "member": {
-      "type": "string",
-      "description": "A member identity's address"
+      "$ref": "./items/bitcoin_identity.json"
     },
     "links": {
       "$ref": "./items/links.json"

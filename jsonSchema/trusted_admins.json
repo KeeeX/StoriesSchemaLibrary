@@ -5,10 +5,10 @@
   "title": "Trusted admins of a group",
   "additionalProperties": true,
   "required": [
-    "trustedKeys"
+    "trustedAddress"
   ],
   "properties": {
-    "trustedKeys": {
+    "trustedAddresses": {
       "type": "array",
       "items": {
         "$ref": "./items/bitcoin_identity.json"

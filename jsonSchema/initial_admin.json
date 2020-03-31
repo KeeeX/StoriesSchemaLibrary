@@ -2,13 +2,13 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "initial_admin",
   "type": "object",
-  "title": "An initial admin of a group",
+  "title": "The initial admin of a group",
   "additionalProperties": true,
   "required": [
-    "initialPublicKey"
+    "initialAddress"
   ],
   "properties": {
-    "initialPublicKey": {
+    "initialAddress": {
       "$ref": "./items/bitcoin_identity.json"
     },
     "links": {

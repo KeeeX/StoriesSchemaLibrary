@@ -5,16 +5,22 @@
   "title": "An identity",
   "additionalProperties": true,
   "required": [
-    "publicKey",
-    "group"
+    "identity"
   ],
   "properties": {
-    "publicKey": {
+    "identity": {
       "$ref": "./items/bitcoin_identity.json"
+    },
+    "authorizations": {
+      "$ref": "./items/authorizations.json"
     },
     "group": {
       "type": "string",
       "description": "The group's name"
+    },
+    "revoked": {
+      "type": "string",
+      "description": "Reason of revocation"
     },
     "links": {
       "$ref": "./items/links.json"
